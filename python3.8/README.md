@@ -60,7 +60,12 @@ sudo apt install ./flit_3.0.0-2_all.deb ./python3-docs-theme_2018.2-4_all.deb
 ### Install python and python3 dependencies:
 
 sudo apt build-dep python
+
 sudo apt build-dep python3
+
+### For armv6l only:
+
+sudo apt install libc6-dev-armel-cross
 
 ### Run build:
 
